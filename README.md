@@ -67,7 +67,7 @@ sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persi
 
 ### Update minimum-gas-prices in app.toml
 ```bash:
-minimum-gas-prices = 0.025uhuahua
+minimum-gas-prices = "0.025uhuahua"
 ```
 
 ### Customize Pruning and Indexing (Optional)
