@@ -94,7 +94,7 @@ NOTE: If your node was already active before pruning tweaks you will need to res
 # To create new keypair - make sure you save the mnemonics!
 chihuahuad keys add <key-name> 
 
-# Restore existing odin wallet with mnemonic seed phrase. 
+# Restore existing chihuahua wallet with mnemonic seed phrase. 
 # You will be prompted to enter mnemonic seed. 
 chihuahuad keys add <key-name> --recover
 ```
